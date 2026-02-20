@@ -6,21 +6,22 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import AntDesign from '@expo/vector-icons/AntDesign';
 
 export default function App() {
+
     return (
         <View style={styles.container}>
             <View style={styles.header}>
-                <FontAwesome name="user-circle" size={80} color="#000000" style={styles['user']} />
-                <Text style={styles.texto}>Yasmin Oliveira</Text>
+                <FontAwesome name="user-circle" size={80} color="black" style={styles['user']} />
+                <Text style={styles.texto}>DEV Junior</Text>
                 <Text style={styles.texto}>Full Stack Developer</Text>
                 <View style={styles.icons}>
-                    <AntDesign name="github" size={20} color="#000000" style={styles['github']} />
+                    <AntDesign name="github" size={20} color="black" style={styles['github']} />
                     <FontAwesome5
                         name="linkedin"
                         size={20}
                         color="black"
                         style={styles['linkedin']}
                     />
-                    <MaterialIcons name="email" size={20} color="#000000" style={styles['email']} />
+                    <MaterialIcons name="email" size={20} color="black" style={styles['email']} />
                 </View>
             </View>
             <StatusBar style="auto" />
@@ -31,18 +32,18 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#d1b8ff',
+        backgroundColor: '#242835',
         alignItems: 'center',
         justifyContent: 'center',
     },
     texto: {
-        color: '#000000',
+        color: '#000',
         fontSize: 18,
         fontWeight: 'bold',
     },
     header: {
         backgroundColor: '#fff',
-        width: 250,
+        width: '80%',
         height: 200,
         borderRadius: 10,
         alignItems: 'center',
